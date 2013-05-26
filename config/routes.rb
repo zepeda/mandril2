@@ -1,4 +1,6 @@
 Mandril2::Application.routes.draw do
+  root to: "mandrils#index"
+  resources :mandrils
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
